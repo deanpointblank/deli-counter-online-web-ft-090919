@@ -9,6 +9,8 @@ def line(array)
     queue = "The line is currently: "
     array.each do |person|
       queue << "#{array[pesron] + 1}. #{person}"
+    end
+  end
 end
 
 def take_a_number(array, name)
