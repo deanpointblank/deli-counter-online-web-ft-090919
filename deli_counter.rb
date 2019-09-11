@@ -17,5 +17,5 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  puts "Welcome, #{name}. You are number #{array("#{name}") + 1} in line"
+  puts "Welcome, #{name}. You are number #{array.fetch(name) + 1} in line"
 end
