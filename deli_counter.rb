@@ -6,9 +6,11 @@ def line(array)
     puts "The line is currently empty."
   else
     # Show everyone's place in line
+    i = 0
     queue = "The line is currently: "
-    array.each do |person|
-      queue << " #{array(each)}. #{person}"
+    while i < array.length do
+      queue << " #{[i] + 1}. #{array[i]}"
+      i += 1
     end
   puts queue
   end
