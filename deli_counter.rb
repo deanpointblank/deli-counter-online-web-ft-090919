@@ -8,7 +8,7 @@ def line(array)
     # Show everyone's place in line
     queue = "The line is currently: "
     array.each do |person|
-      queue << " . #{person}"
+      queue << "#{array(person) + 1} . #{person}"
     end
   puts queue
   end
