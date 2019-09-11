@@ -9,7 +9,7 @@ def line(array)
     i = 0
     queue = "The line is currently: "
     while i < array.length do
-      queue << " #{[i] + 1}. #{array[i]}"
+      queue << " #{i + 1}. #{array[i]}"
       i += 1
     end
   puts queue
