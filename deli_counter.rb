@@ -10,6 +10,7 @@ def line(array)
     array.each do |person|
       queue << " . #{person}"
     end
+  puts queue
   end
 end
 
